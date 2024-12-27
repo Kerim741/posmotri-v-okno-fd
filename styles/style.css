@@ -68,6 +68,8 @@ ol {
 
 .content__details {
   grid-area: 1 / 2 / 2 / 3;
+  width: 100%;
+  height: 100%;
 }
 
 .search-form {
@@ -80,11 +82,6 @@ ol {
   position: relative;
   height: 298px;
   overflow: auto;
-}
-
-.content__details {
-  width: 100%;
-  height: 100%;
 }
 
 .result__video-container {
@@ -253,7 +250,7 @@ fieldset {
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
-  position: absolute;
+  position: relative;
   content: "";
   background-color: #fff;
   width: 15px;
