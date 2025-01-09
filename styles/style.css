@@ -163,7 +163,7 @@ ol {
 
 .content__video-card-title {
   color: rgb(255, 255, 255);
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 100%;
@@ -174,6 +174,7 @@ ol {
 }
 
 .content__video-card-description {
+  margin-top: 6px;
   color: rgb(255, 255, 255);
   font-family: "Fira Sans Condensed", "Fira Sans Extra Condensed", sans-serif;
   font-size: 18px;
@@ -302,6 +303,10 @@ fieldset {
 
 .content__card-link:hover {
   text-decoration: underline;
+}
+
+.content__card-link:active {
+  border-color: #545050;
 }
 
 .content__card-link:focus {
